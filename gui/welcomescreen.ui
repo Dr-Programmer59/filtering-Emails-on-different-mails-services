@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>683</width>
+    <height>484</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(42, 49, 67);</string>
+  </property>
+  <widget class="QPushButton" name="office365">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>641</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton{
+border:2px solid rgb(120, 60, 79);
+color: rgb(120, 60, 79);
+padding-bottom:7px;
+border-radius:7px;
+
+
+}
+
+QPushButton:hover {
+
+
+border-radius:15px;
+}
+
+QPushButton:pressed {
+
+border-radius:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>OFFICE365 </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="godaddy">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>641</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton{
+border:2px solid rgb(241, 188, 49);
+color: rgb(241, 188, 49);
+padding-bottom:7px;
+border-radius:7px;
+
+
+}
+
+QPushButton:hover {
+
+border:2px solid rgb(241, 188, 49);
+color: rgb(241, 188, 49);
+padding-bottom:7px;
+
+border-radius:15px;
+}
+
+QPushButton:pressed {
+
+border:2px solid rgb(241, 188, 49);
+color: rgb(241, 188, 49);
+padding-bottom:7px;
+border-radius:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>GODADDY </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="webmail">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>631</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton{
+border:2px solid rgb(241, 188, 49);
+color: rgb(241, 188, 49);
+padding-bottom:7px;
+border-radius:7px;
+
+
+}
+
+QPushButton:hover {
+
+border:2px solid rgb(241, 188, 49);
+color: rgb(241, 188, 49);
+padding-bottom:7px;
+
+border-radius:15px;
+}
+
+QPushButton:pressed {
+
+border:2px solid rgb(241, 188, 49);
+color: rgb(241, 188, 49);
+padding-bottom:7px;
+border-radius:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>WEBMAIL</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rackspace">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>370</y>
+     <width>641</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton{
+border:2px solid rgb(120, 60, 79);
+color: rgb(120, 60, 79);
+padding-bottom:7px;
+border-radius:7px;
+
+
+}
+
+QPushButton:hover {
+
+
+border-radius:15px;
+}
+
+QPushButton:pressed {
+
+border-radius:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>RACKSPACE</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+  <include location="email.qrc"/>
+  <include location="office365.qrc"/>
+ </resources>
+ <connections/>
+</ui>
